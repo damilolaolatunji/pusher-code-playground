@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.playground {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  background-color: #1E1E2C;
+}
+
+.code-editor {
+  height: 33.33%;
+  overflow: hidden;
+  position: relative;
+}
+
+.editor-header {
+  height: 30px;
+  content: attr(title);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #fafafa;
+}
+
+.react-codemirror2 {
+  max-height: calc(100% - 30px);
+  overflow: auto;
+}
+
+.result {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 600px;
+  overflow: hidden;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+}
