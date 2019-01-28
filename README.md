@@ -1,6 +1,6 @@
 # Collaborative Code Playground Demo
 
-A collaborative code playground built with Pusher Channels and React. Tutorial:
+A collaborative code playground built with Pusher Channels and React. Tutorial: https://pusher.com/tutorials/code-playground-react
 
 ## Getting Started
 
